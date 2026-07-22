@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>PET | Enterprise Performance Evaluation Tool</title>
+    <meta name="title" content="PET | Enterprise Performance Evaluation Tool" />
+    <meta name="description" content="Simple, powerful monthly feedback tool for team evaluations across 5 fixed parameters with HR compliance tracking and performance trend analytics." />
+    <meta name="keywords" content="performance evaluation, manager feedback, monthly review, 360 feedback, HR compliance, team performance, lattice alternative" />
+    <meta name="author" content="PET Enterprise Team" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://localhost:3000/" />
+    <meta property="og:title" content="PET | Enterprise Monthly Performance Evaluation Tool" />
+    <meta property="og:description" content="Enterprise platform for monthly manager feedback across 5 fixed parameters with real-time HR submission tracking and historical score analytics." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="http://localhost:3000/" />
+    <meta name="twitter:title" content="PET | Enterprise Monthly Performance Evaluation Tool" />
+    <meta name="twitter:description" content="Enterprise platform for monthly manager feedback across 5 fixed parameters with real-time HR submission tracking and historical score analytics." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+              heading: ['Outfit', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-sans selection:bg-indigo-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
